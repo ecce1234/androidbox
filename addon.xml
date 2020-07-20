@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.hacky"
+  version="1.0.5"
+  name="Hacky's repository"
+  provider-name="Hacky">
+  <extension point="xbmc.addon.repository"
+    name="Hackyho repo">
+    <dir>
+      <info compressed="false">https://kodi.anonymouz.eu/repo/addons.xml</info>
+      <checksum>https://kodi.anonymouz.eu/repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://kodi.anonymouz.eu/repo/</datadir>
+    </dir>
+    <dir minversion="17.9.0">
+      <info compressed="false">https://kodi.anonymouz.eu/repo-v18/addons.xml</info>
+      <checksum>https://kodi.anonymouz.eu/repo-v18/addons.xml.md5</checksum>
+      <datadir zip="true">https://kodi.anonymouz.eu/repo-v18/</datadir>
+    </dir>
+    <dir minversion="16.9.0" maxversion="17.9.0">
+      <info compressed="false">https://kodi.anonymouz.eu/repo-v17/addons.xml</info>
+      <checksum>https://kodi.anonymouz.eu/repo-v17/addons.xml.md5</checksum>
+      <datadir zip="true">https://kodi.anonymouz.eu/repo-v17/</datadir>
+    </dir>
+    <dir minversion="15.9.0" maxversion="16.9.0">
+      <info compressed="false">https://kodi.anonymouz.eu/repo-v16/addons.xml</info>
+      <checksum>https://kodi.anonymouz.eu/repo-v16/addons.xml.md5</checksum>
+      <datadir zip="true">https://kodi.anonymouz.eu/repo-v16/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Hacky's repository</summary>
+    <description>
+      Contains Stream Cinema 2.0 dependencies
+      - Stream Cinema 2.0 zip files are not stored on kodi.anonymouz.eu
+      - this repository only contains SC2 dependencies and redirects 
+      to the latest SC2 zip file stored on git.hotshot.sk
+      - author of this repository is not responsible for the Stream Cinema 2 addon 
+      or for any damages caused by using Stream Cinema 2 addon.
+      - all updates are fully automatic via auto-redirects to the server git.hotshot.sk 
+      - author of this repository is in no way connected to the git.hotshot.sk 
+      or Stream Cinema 2 addon
+    </description>
+    <description lang="cs">
+      Obsahuje zavislosti pro Stream Cinema 2.0
+      - Stream Cinema 2.0 zip soubory nejsou primo ulozeny na serveru 
+      kodi.anonymouz.eu
+      - tento server / repozitar pouze obsahuje zavislosti a presmerovani 
+      na posledni verze Stream Cinema 2 zip ulozen na serveru git.hothost.sk
+      - autor repozitare nenese zadnou odpovednost za tento doplnek, ani za 
+      skody zpusobene jeho pouzivanim
+      - veskere aktualizace jsou automaticke formou automatickych redirectu 
+      na server git.hotshot.sk, se kterym autor tohoto repozitare nema nic spolecneho
+    </description>
+    <platform>all</platform>
+    <language>en cs sk</language>
+  </extension>
+</addon>
